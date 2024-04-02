@@ -1,0 +1,428 @@
+/* General styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #ba1d1d;
+    background-image: url(../images/desktop-wallpaper-library-background-library-laptop.jpg);
+    background-size: cover;
+    border: 2px solid #296716; /* Set the border width and color */
+    margin: 0; /* Remove default body margin */
+    
+}
+
+h4{
+    font-style: italic;
+    color: rgb(1, 2, 4);
+}
+
+h3 {
+    display: block;
+    color: #ffffffb2;
+    font-size: 30px; /* Adjust font size as needed */
+    background-color: #4f2602; /* White background */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Heading style */
+.reserved-box {
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3b7436; /* White background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.565);
+   
+}
+
+.reservation-message {
+
+    display: block;
+    color: #ffffff;
+    font-size: 30px; /* Adjust font size as needed */
+    background-color: #4f2602; /* White background */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+
+h2.reserved-heading {
+    color: #000000;
+    font-size: 30px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Add space below the heading */
+}
+
+/* Table styles */
+.reserved-box .reserved-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.reserved-box .reserved-table th, .reserved-box .reserved-table td {
+    border: 1px solid #dddddd92;
+    padding: 8px;
+    text-align: left;
+}
+
+.reserved-box .reserved-table th {
+    background-color: #131f0b;
+}
+
+.reserved-box .reserved-table tr:nth-child(even) {
+    background-color: #f9f9f98b;
+}
+
+.reserved-box .reserved-table tr:hover {
+    background-color: #f5f5f5b1;
+}
+
+
+
+/* List style */
+ul.reserved-list {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.reserved-box ul.reserved-list li {
+    font-size: 18px; /* Adjust the font size for the list items */
+}
+
+.reserved-box ul.reserved-list li a {
+    font-size: 18px; /* Adjust the font size for the links */
+}
+
+/* List item style */
+ul.reserved-list li {
+    margin-bottom: 20px; /* Adjust the space below each list item */
+    padding: 20px; /* Adjust padding to control the size of the white background */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+    
+}
+
+/* Link style within the list item */
+ul.reserved-list li a {
+    color: #0c62b2; /* Green color for links */
+    text-decoration: none;
+    
+}
+
+/* Link hover style */
+ul.reserved-list li a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #359661; /* Adjust the hover color */
+}
+
+.reserved-container {
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #067328;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.header {
+    background-color: #dbc0a6;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #723434;
+}
+
+.header a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    color: #166304;
+}
+
+/* Form container styles */
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #0d7c54;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Adjust the size of the category box for better visibility */
+form {
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #246137;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Keep the position relative for absolute positioning within */
+}
+form select {
+    width: 100%; /* Make the category box take up the full width of its container */
+    height: 40px; /* Increased the height for better accessibility */
+    font-size: 20px; /* Increased the font size for better readability */
+    margin-bottom: 20px; /* Added some spacing to improve visibility */
+}
+
+
+
+/* Form styles */
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+
+form button {
+    display: block;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.user-form button:hover {
+    background-color: #5e31ac;
+}
+
+.user-form-container {
+    max-width: 500px; /* Adjust the max-width as needed for width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #067328;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffffdb;
+    font-weight: bold;
+}
+
+.user-form input {
+    width: 100%; /* Adjust the width as needed */
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.user-form input[type="submit"] {
+    background-color: #4caf50;
+    color: #ffffffc5;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.user-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.user-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.required {
+    color: red;
+}
+
+/* Table styles */
+.table-container {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #cbc2c2;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+th {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Update the pagination styles */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center the pagination links */
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 5px; /* Add some margin between links */
+}
+
+.pagination a:hover {
+    background-color: #45a049;
+}
+
+/* Books container styles */
+.books-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffffd8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add position relative to create a containing block for absolute positioning */
+}
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #166304;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-column {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer-column p {
+    margin: 0;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles for the form */
+@media only screen and (max-width: 600px) {
+    form {
+        max-width: 300px;
+    }
+
+    form select {
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    form {
+        max-width: 500px;
+    }
+
+    form select {
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
+/* Ensure the form button doesn't affect layout */
+
+
+form button:hover {
+    background-color: #454ca0;
+}
+
+.error-container {
+    text-align: center; /* Center the error message within the container */
+    margin-top: 10px; /* Add margin to separate from the form */
+}
+
+
+/* Error message style */
+.error-message {
+    display: inline-block; /* Make the message inline-block to only take the necessary width */
+    max-width: 300px; /* Set a maximum width for the error message box */
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    padding: 10px; /* Add padding for spacing */
+    border: 1px solid #000; /* Add a border for a box effect */
+    border-radius: 5px; /* Add rounded corners */
+    text-align: center; /* Center the text within the box */
+}
+
+.message-box {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: #dff0d8; /* Success message background color */
+    color: #3c763d; /* Success message text color */
+}
+
+.error-box {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ebccd1;
+    background-color: #f2dede; /* Error message background color */
+    color: #a94442; /* Error message text color */
+}
+
+
+
